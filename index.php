@@ -108,27 +108,27 @@
         <ul>
 
             <li>
-                <a href="..\W1c\index.php">Week 1 - Arrays </a>
+                <a href="..\SE266\W1c\index.php">Week 1 - Arrays </a>
             </li>
 
             <li>
-                <a href="..\W1d\index.php">Week 1 - Associated</a>
+                <a href="..\SE266\W1d\index.php">Week 1 - Associated</a>
             </li>
 
             <li>
-                <a href="..\W1e\index.php">Week 1 - Booleans</a>
+                <a href="..\SE266\W1e\index.php">Week 1 - Booleans</a>
             </li>
 
             <li>
-                <a href="..\W1f\index.php">Week 1 - Functions</a>
+                <a href="..\SE266\W1f\index.php">Week 1 - Functions</a>
             </li>
 
             <li>
-                <a href="..\W1f\index.php">Week 1 - FizzBuzz</a>
+                <a href="..\SE266\W1g\index.php">Week 1 - FizzBuzz</a>
             </li>
 
             <li>
-                <a href="..\W2a\index.php">Week 2</a>
+                <a href="..\SE266\W2b\index.php">Week 2 - Patient Intake</a>
             </li>
 
             <li>
