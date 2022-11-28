@@ -72,34 +72,7 @@
     </style>
 </head>
 <body>
-    <div class="navbar">
-        <a href="..\W2a\index.php"><img src="..\W2a\images\!GORDIVIRIS_PROD.LOGO.png" width="80px;" ></a>
-        <a href="..\W2a\index.php">Home</a>
-        <div class="dropdown">
-            <button class="dropbtn">Assignments 
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content"> 
-                <a href="..\W1c\index.php">Week 1 - Arrays </a>
-                <a href="..\W1d\index.php">Week 1 - Associated</a>
-                <a href="..\W1e\index.php">Week 1 - Booleans</a>
-                <a href="..\W1f\index.php">Week 1 - Functions</a>
-                <a href="..\W1g\index.php">Week 1 - FizzBuzz</a>
-                <a href="..\W2a\index.php">Week 2</a>
-                <a href="..\W2a\index.php">Week 3</a>
-                <a href="..\W2a\index.php">Week 4</a>
-                <a href="..\W2a\index.php">Week 5</a>
-                <a href="..\W2a\index.php">Week 6</a>
-                <a href="..\W2a\index.php">Week 7</a>
-                <a href="..\W2a\index.php">Week 8</a>
-                <a href="..\W2a\index.php">Week 9</a>
-                <a href="..\W2a\index.php">Week 10</a>
-            </div>
-        </div>
-        <a href="..\W2a\php_resources.php">PHP Resources</a>
-        <a href="..\W2a\git_resources.php">Git Resources</a>
-        <a href="..\W2a\hobbies.php">Hobby Resources</a>
-        <a href="https://github.com/gordiviris/SE266" target="_blank">Kevin's Github Repo</a>
+    <?php require "header.php";?>
     </div>
     <h1>Kevin Andrade</h1>
     <p>SE266 PHP</p>
@@ -132,7 +105,7 @@
             </li>
 
             <li>
-                <a href="..\W2a\index.php">Week 3</a>
+                <a href="W3\index.php">Week 3 - ATM</a>
             </li>
 
             <li>
@@ -166,15 +139,7 @@
         </ul>
     </div>
     <div class="footer">
-        <hr/>
-        Kevin Andrade 2022 &copy | 
-        <?php
-            //From tim Henry's class_web_site
-            date_default_timezone_set('America/New_York');
-            $file = basename($_SERVER['PHP_SELF']);
-            $mod_date=date("F d Y h:i:s A", filemtime($file));
-            echo "Site last upadated $mod_date"; 
-        ?>
+        <?php require "footer.php";?>
     </div>
 </body>
 </html>

@@ -63,7 +63,7 @@
         }
 
         .dropdown-content a:hover {
-        background-color: #0000FF;
+        background-color: ##0000FF;
         }
 
         .dropdown:hover .dropdown-content {
@@ -72,28 +72,34 @@
     </style>
 </head>
 <body>
-<?php require "header.php";?>
-    <div>
-        <h3>Git Resources</h3>
-        <ul>
-
-            <li>
-                <a href="https://www.w3schools.com/git/">W3 Schools - Git </a>
-            </li>
-
-            <li>
-                <a href="https://git-scm.com/docs/gittutorial">Git-scm.com</a>
-            </li>
-
-            <li>
-                <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
-            </li>
-
-        </ul>
+    <div class="navbar">
+        <a href="..\index.php"><img src="images\!GORDIVIRIS_PROD.LOGO.png" width="80px;" ></a>
+        <a href="..\index.php">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Assignments 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content"> 
+                <a href="W1c\index.php">Week 1 - Arrays </a>
+                <a href="W1d\index.php">Week 1 - Associated</a>
+                <a href="W1e\index.php">Week 1 - Booleans</a>
+                <a href="W1f\index.php">Week 1 - Functions</a>
+                <a href="W1g\index.php">Week 1 - FizzBuzz</a>
+                <a href="W2b\index.php">Week 2 - Patient Intake</a>
+                <a href="W3\index.php">Week 3 - ATM</a>
+                <a href="W2a\index.php">Week 4</a>
+                <a href="W2a\index.php">Week 5</a>
+                <a href="W2a\index.php">Week 6</a>
+                <a href="W2a\index.php">Week 7</a>
+                <a href="W2a\index.php">Week 8</a>
+                <a href="W2a\index.php">Week 9</a>
+                <a href="W2a\index.php">Week 10</a>
+            </div>
+        </div>
+        <a href="php_resources.php">PHP Resources</a>
+        <a href="git_resources.php">Git Resources</a>
+        <a href="hobbies.php">Hobby Resources</a>
+        <a href="https://github.com/gordiviris/SE266" target="_blank">Kevin's Github Repo</a>
     </div>
-    <div class="footer">
-        <?php require "footer.php";?>
-    </div>
-    
 </body>
 </html>

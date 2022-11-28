@@ -17,6 +17,7 @@
     </style>
 </head>
 <body>
+    <?php require "../header.php" ?> 
     <h1>Patient Intake</h1>
     <div class="form">
         <form action="index.php" method="post">
@@ -45,4 +46,5 @@
 
     </div>
 </body>
+<?php require "../footer.php" ?> 
 </html>
