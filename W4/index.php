@@ -8,7 +8,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+<?php require ('../header.php'); ?>
 <div class="container">
+
     <div class="col-sm-offset-2 col-sm-10">
      
         <h1>Patients</h1>
@@ -65,6 +67,10 @@
             </tbody>
         </table>
     </div>
+    <?php
+        require ('../footer.php');
+    ?>
 </div>
+
 </body>
 </html>

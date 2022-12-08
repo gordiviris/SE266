@@ -67,6 +67,7 @@
 </head>
 
 <body>
+<?php require ('../header.php'); ?>
 <div class="container">
 
 
@@ -123,8 +124,11 @@
       </div>
     </div>
   </form>
-  
+  <?php
+        require ('../footer.php');
+    ?>
 </div>
+
 
 </body>
 </html>

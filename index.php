@@ -109,7 +109,7 @@
             </li>
 
             <li>
-                <a href="..\W2a\index.php">Week 4</a>
+                <a href="..\SE266\W4\index.php">Week 4 - Patient List</a>
             </li>
 
             <li>
