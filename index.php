@@ -113,7 +113,7 @@
             </li>
 
             <li>
-                <a href="..\W2a\index.php">Week 5</a>
+                <a href="..\W5\index.php">Week 6 - Patient Search</a>
             </li>
 
             <li>
