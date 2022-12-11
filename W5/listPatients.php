@@ -38,7 +38,10 @@
 
             $patients = $patientDatabase->getPatients ();
         ?>
-        <a href="addPatient.php?action=add">Add Patient</a>
+
+        <a href="listPatients.php"> View All Patients </a>|
+        <a href="addPatient.php?action=add"> Add Patient </a>
+        
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -54,6 +57,37 @@
                 </tr>
             </thead>
 
+            <?php 
+                if(isset($_POST['search'])){
+                    foreach ($patientListing as $row): 
+                    ?>
+
+                    <tr>
+
+                        <td>
+
+                            <td><?php echo $row['id']; ?></td>
+                            <td><?php echo $row['patientFirstName']; ?></td>
+                            <td><?php echo $row['patientLastName']; ?></td>
+                            <td><?php echo $row['patientBirthDate']; ?></td>  
+                            <td><?php echo $patientDatabase->age($row['patientBirthDate']); ?></td>  
+                            <td><?php
+                                if($row['patientMarried'] == "0"){
+                                    echo "NO";
+                                } elseif($row['patientMarried'] == "1"){
+                                    echo "YES";
+                                }
+                                else{
+                                    echo "N/A";
+                                }
+                                //echo $row['patientMarried']; 
+                            ?></td>
+                            <td><a href="addPatient.php?action=update&patientId=<?php echo $row['id'];?>">Edit</a></td>
+                        </td>
+
+
+                    </tr>
+            <?php endforeach; } else{ ?>
             <tbody>
             <?php foreach ($patients as $row): ?>
                 <tr>
@@ -81,7 +115,7 @@
                     
                     
                 </tr>
-            <?php endforeach; ?>
+            <?php endforeach; }?>
             </tbody>
         </table>
     </div>
