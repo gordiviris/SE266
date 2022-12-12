@@ -117,7 +117,7 @@
             </li>
 
             <li>
-                <a href="..\W2a\index.php">Week 6</a>
+                <a href="..\SE266\W7\index.php">Week 7 - School Upload</a>
             </li>
 
             <li>

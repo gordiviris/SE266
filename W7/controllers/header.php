@@ -95,8 +95,8 @@
                 <a href="W2b\index.php">Week 2 - Patient Intake</a>
                 <a href="W3\index.php">Week 3 - ATM</a>
                 <a href="W4\index.php">Week 4 - Patient List</a>
-                <a href="W2a\index.php">Week 5</a>
-                <a href="W2a\index.php">Week 6</a>
+                <a href="W5\index.php">Week 5 - Patient Search</a>
+                <a href="W7\index.php">Week 7- School Search</a>
                 <a href="W2a\index.php">Week 7</a>
                 <a href="W2a\index.php">Week 8</a>
                 <a href="W2a\index.php">Week 9</a>
