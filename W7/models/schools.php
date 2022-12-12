@@ -95,11 +95,12 @@ class Schools
 
                 // This if-statement is here to filter the number of records added to the database
                 // When testing, you may not want to add *all* records for time's sake
-                if ($schoolCounter++ % self::MAX_INSERT_ROWS == 0) 
-                {
-                    // Add the school to the database
-                   $schoolTable->query("INSERT INTO schools (schoolName, schoolCity, schoolState) VALUES ". $schoolToInsert);
-                }
+                // if ($schoolCounter++ % self::MAX_INSERT_ROWS == 0) 
+                // {
+                //     // Add the school to the database
+                //    $schoolTable->query("INSERT INTO schools (schoolName, schoolCity, schoolState) VALUES ". $schoolToInsert);
+                // }
+                $schoolTable->query("INSERT INTO schools (schoolName, schoolCity, schoolState) VALUES ". $schoolToInsert);
             }
  
             // All done, for security reasons, close and delete the CSV file
